@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"#REPLACE WITH OPENAI API KEY HERE
 embedding_model_name = 'all-MiniLM-L6-v2'
 model = SentenceTransformer(embedding_model_name)
 
